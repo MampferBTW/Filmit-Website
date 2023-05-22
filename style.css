@@ -21,6 +21,13 @@
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif
   }
+  
+  h2 {
+    text-align: center;
+    margin: 0 auto;
+    /*margin-top: 40px;*/
+    margin-bottom: 40px;
+  }
 
   /*#region Header*/
 
@@ -121,6 +128,7 @@
 
   /*#endregion*/
 
+  /*#region Main*/
   main {
     max-width: 1200px;
     margin: 0 auto;
@@ -135,6 +143,9 @@
     padding-bottom: 10px; /* Optional: Add some spacing between the sections */
   }
 
+  /*#endregion*/
+
+  /*#region Footer*/
   .footer {
     margin-top: 20px;
     display: flex;
@@ -158,12 +169,7 @@
     background: linear-gradient(to right, #D39D38, #4DA0B0); */
   }
 
-  h2 {
-    text-align: center;
-    margin: 0 auto;
-    /*margin-top: 40px;*/
-    margin-bottom: 40px;
-  }
+  
 
   .social-media-links {
     margin-top: 20px;
@@ -173,6 +179,7 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+  /*#endregion*/
 
   .poster {
     margin-bottom: 40px;
@@ -182,6 +189,7 @@
     width: 500px;
   }
 
+/*#region review*/
   .review {
     text-align: center;
     /*margin: 0 auto;*/
@@ -194,13 +202,18 @@
     align-items: center;
   }
 
+  
   .reversed {
     flex-direction: row-reverse;
   }
-
+  
   .reversed .movie {
     margin-left: 40px;
   }
+  
+  /*#endregion*/
+  
+  /*#region trailer*/
 
   .video-container {
     margin-bottom: 20px;
@@ -213,10 +226,22 @@
     border-radius: 20px;
   }
 
+  /*#endregion*/
+
+/*#region blogPost*/
+
   .blog-post {
     margin-bottom: 20px;
     text-align: center;
   }
+
+  .blog-pic{
+    width: 800px;
+  }
+
+  /*#endregion*/
+
+  /*#region Team members*/
 
   .team-members ul {
     list-style-type: none;
@@ -240,6 +265,9 @@
     margin-right: 10px;
   }
 
+  /*#endregion*/
+
+  /*#region Slideshow*/
   .slideshow-img {
     width: 1000px;
   }
@@ -247,7 +275,10 @@
   .slideshow {
     background-color: black;
   }
+  /*#endregion*/
   
+  /*#region Form*/
+
   input {
     text-align: center;
     border: 2px solid black;
@@ -279,6 +310,9 @@
     font-family: 'Mukta', sans-serif; 
   }
 
+  /*#endregion*/
+
+  /*#region slideshow*/
     /* Slideshow container */
   .slideshow-container {
     /* max-width: 1000px; */
@@ -383,6 +417,9 @@
     to {opacity: 1}
   }
 
+  /*#endregion*/
+
+  /*#region table*/
   table {
     width: 100%;
     border-collapse: collapse;
@@ -412,6 +449,10 @@
     background-color: #e0e0e0;
   }
 
+  /*#endregion*/
+
+  /*#region news article*/
+
   .news-article h3{
     margin-top: 15px;
   }
@@ -425,9 +466,9 @@
     width: 500px;
   }
 
-  .blog-pic{
-    width: 800px;
-  }
+  /*#endregion*/
+
+ 
 
   .rounded-background {
     background-color: #D39D38;
