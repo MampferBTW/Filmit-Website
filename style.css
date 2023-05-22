@@ -423,10 +423,12 @@
 
   .article-picture{
     width: 500px;
+    border-radius: 15px;
   }
 
   .blog-pic{
     width: 800px;
+    border-radius: 15px;
   }
 
   .rounded-background {
