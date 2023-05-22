@@ -452,6 +452,13 @@
 
 /*#region news article*/
 
+  .news-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .8em;
+  }
+
   .news-article h3{
     margin-top: 15px;
   }
