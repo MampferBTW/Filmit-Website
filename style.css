@@ -188,7 +188,7 @@
     width: 500px;
   }
 
-  /*#region review*/
+/*#region review*/
   .review {
     text-align: center;
     /*margin: 0 auto;*/
@@ -237,11 +237,21 @@
 
   /*#endregion*/
 
-  /*#region blog post*/
+/*#region blog post*/
 
   .blog-post {
     margin-bottom: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .8em;
+  }
+
+  .blog-post ul {
+    color: white;
+    padding: .8em;
+    border-radius: .8em;
   }
 
   .blog-pic{
