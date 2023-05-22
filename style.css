@@ -464,11 +464,16 @@
 
   .article-picture{
     width: 500px;
+    border-radius: 15px;
   }
 
   /*#endregion*/
 
  
+  .blog-pic{
+    width: 800px;
+    border-radius: 15px;
+  }
 
   .rounded-background {
     background-color: #D39D38;
