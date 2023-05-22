@@ -33,7 +33,7 @@
     color: white;
   }
 
-/*#region Header*/
+  /*#region Header*/
 
   header {
     background-color: #111;
@@ -132,7 +132,7 @@
 
   /*#endregion*/
 
-/*#region Main*/
+  /*#region Main*/
   main {
     max-width: 1200px;
     margin: 0 auto;
@@ -150,7 +150,7 @@
 
   /*#endregion*/
 
-/*#region Footer*/
+  /*#region Footer*/
   .footer {
     margin-top: 20px;
     display: flex;
@@ -192,7 +192,7 @@
     width: 500px;
   }
 
-/*#region review*/
+  /*#region review*/
   .review {
     text-align: center;
     /*margin: 0 auto;*/
@@ -222,7 +222,7 @@
   
   /*#endregion*/
   
-/*#region trailer*/
+  /*#region trailer*/
 
   .video-container {
     margin-bottom: 20px;
@@ -241,7 +241,7 @@
 
   /*#endregion*/
 
-/*#region blog post*/
+  /*#region blog post*/
 
   .blog-post {
     margin-bottom: 20px;
@@ -265,7 +265,7 @@
 
   /*#endregion*/
 
-/*#region Team members*/
+  /*#region Team members*/
 
   .team-members ul {
     list-style-type: none;
@@ -291,7 +291,7 @@
 
   /*#endregion*/
 
-/*#region Slideshow*/
+  /*#region Slideshow*/
   .slideshow-img {
     width: 1000px;
   }
@@ -301,7 +301,7 @@
   }
   /*#endregion*/
   
-/*#region Form*/
+  /*#region Form*/
 
   input {
     text-align: center;
@@ -336,7 +336,7 @@
 
   /*#endregion*/
 
-/*#region slideshow*/
+  /*#region slideshow*/
     /* Slideshow container */
   .slideshow-container {
     /* max-width: 1000px; */
@@ -464,7 +464,7 @@
 
   /*#endregion*/
 
-/*#region news article*/
+  /*#region news article*/
 
   .news-article {
     display: flex;
@@ -489,23 +489,11 @@
 
   /*#endregion*/
 
-/*#region imprint*/
+  /*#region imprint*/
   .imprint {
     display: flex;
     flex-direction: column;
     gap: 1em;
   }
-/*#endregion*/
+  /*#endregion*/
  
-  .blog-pic{
-    width: 800px;
-    border-radius: 15px;
-  }
-
-  .rounded-background {
-    background-color: #D39D38;
-    padding: 10px;
-    border-radius: 10px;
-    display: inline-block;
-  }
-
