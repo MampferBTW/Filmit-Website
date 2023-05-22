@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Discover the latest movie news, reviews, box office rankings, trailers, interviews, and blogs on Filmit - your ultimate Filmparadise. Made by fans for fans.">
+    <title>Filmit Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html"><img class="logo" src="img/icons/logo.jpg" alt="Filmit Logo"></a>
+        </div>
+        <ul>
+          <li><a href="html/reviews.html">Reviews</a></li>
+          <li><a href="html/boxoffice.html">Box Office</a></li>
+          <li><a href="html/trailers.html">Trailers</a></li>
+          <li><a href="html/news.html">News</a></li>
+          <li><a href="html/blog.html">Blog</a></li>
+          <li id="about"><a href="html/about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main style="padding: 0 20px 20px 20px;">
+      <div id="upcoming-films">
+        <h2>Upcoming Films</h2>
+      </div>
+        <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <a href="img/slideshow/wallpaper_faf_10.jpg" target="_blank"><img src="img/slideshow/wallpaper_faf_10.jpg" title="Fast & Furious 10" alt="Movie wallpaper F10" style="width:100%"></a>
+          <div class="text">Fast & Furious 10</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <a href="img/slideshow/wallpaper_spiderman_ats.jpg" target="_blank"><img src="img/slideshow/wallpaper_spiderman_ats.jpg" title="Spiderman: Across the Spider-Verse" alt="Movie wallpaper Spiderman ATS" style="width:100%"></a>
+          <div class="text">Spiderman: Across the Spider-Verse</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <a href="img/slideshow/wallpaper_extraction_2.jpg" target="_blank"><img src="img/slideshow/wallpaper_extraction_2.jpg" title="Extraction 2" alt="Movie wallpaper Extraction 2" style="width:100%"></a>
+          <div class="text">Extraction 2</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      
+      <div class="general-info">
+        <h1>Welcome to our Filmparadise</h1>
+        <p>Made by fans for fans</p>
+        <p>Here you can find the latest movie news, reviews, box office rankings, trailers, interviews and our own blog.</p>
+      </div>
+
+      <br>
+      
+      <div class="container">
+        <h2>What you will find on the Filmit website</h2>
+      </div>
+      
+      <div class="container">
+        <h3>Movie News</h3>
+        <div class="news-article">
+          <h3>&lsquo;Mending The Line&rsquo;: Blue Fox Entertainment Acquires Veteran Drama Starring Brian Cox & Sinqua Walls</h3>
+          <a href="img/news-article/mending-the-line.jpg" target="_blank"><img class="article-picture" src="img/news-article/mending-the-line.jpg" title="Deaged Harrison Ford in Indiana Jones 5" alt=""></a>
+          <p>The story follows Colter (Walls), a marine who has just returned home after being wounded in Afghanistan on his last patrol. His doctor (Patricia Heaton) at the VA hospital introduces him to a Vietnam War veteran (Cox) who has been treated at the facility for decades and teaches him to fly fish, hoping it will help the young man deal with his physical and emotional trauma.</p>
+          <p>...</p>
+      </div>
+      
+      <div class="container">
+        <h3>Reviews</h3>
+        <div class="review-container">
+          <div class="movie">
+            <a href="img/reviews/movie1.jpg" target="_blank"><img class="poster" src="img/reviews/movie1.jpg" alt="Movie poster John Wick: Chapter 4"></a>
+          </div>
+          <div class="review">
+            <h2>JOHN WICK: CHAPTER 4</h2>
+            <p><span class="rounded-background"> March 24, 2023 &nbsp; Chad Stahelski &nbsp; Action/Neo-Noir &nbsp; 4.5/5&starf;</span></p> 
+            <p><br>God tier action movie</p>
+            <p><br>We were so excited for John Wick: Chapter 4 and it was absolutely fantastic. From the fight choreography, the soundtrack and cast to the incredible set pieces, everything was just amazing. It was hella entertaining and featured some nice twists. The atmosphere was "dark" and stylish just how you'd expect it. JW 4 features a lot of sequences that you won't forget so easily.</p> 
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <h3>Box Office Stats</h3>
+        <h2>2023 Box Office Stats</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Title</th>
+              <th>Lifetime Gross</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>The Super Mario Bros. Movie</td>
+              <td>$1,219,644,164</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Guardians of the Galaxy Vol. 3</td>
+              <td>$550,785,084</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Ant-Man and the Wasp: Quantumania</td>
+              <td>$475,841,596</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>John Wick: Chapter 4</td>
+              <td>$426,220,105</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Creed III</td>
+              <td>$273,848,615</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="container">
+        <h3>Trailers</h3>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_adt_ESwZag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <h3>SPIDERMAN: ACROSS THE SPIDER-VERSE</h3>
+          <p>Release Date: June 3, 2023</p>
+          <p>MILES MORALES&rsquo; STORY AND THE SPIDER-VERSE WEB EXPANDS.
+            After reuniting with Gwen Stacy, Miles Morales — Brooklyn&rsquo;s full-time, friendly neighborhood Spider-Man — is catapulted across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must redefine what it means to be a hero so he can save the people he loves most.</p>
+        </div>
+      </div>
+      
+      <div class="container">
+        <h3>Blog</h3>
+        <div class="blog-post">
+          <h2>My Amazing Experience at the Cannes Film Festival 2023</h2>
+          <p>Published on May 21, 2023 by Gregor Enengl</p>
+          <a href="img/blog-post/cannes-2023.jpg" target="_blank"><img class="blog-pic" src="img/blog-post/cannes-2023.jpg" alt="Cannes Film Festival 2023"></a>
+          <h3>Introduction</h3>
+          <p>Attending the Cannes Film Festival 2023 was a dream come true for me. As a film enthusiast, I had always longed to experience the glamour, excitement, and cinematic brilliance that the festival offers. In this blog post, I will share my incredible journey and highlight some of the memorable moments from my time at the festival.</p>
+  
+          <h3>Arrival and First Impressions</h3>
+          <p>Stepping onto the red carpet at the prestigious Palais des Festivals was an exhilarating experience. The energy in the air was palpable as filmmakers, actors, and film enthusiasts from around the world gathered to celebrate the art of cinema. The grandeur of the venue and the bustling atmosphere set the stage for an unforgettable adventure.</p>
+          
+          <p>...</p>
+      </div>
+      
+    </main>
+
+    <div class="footer">
+      <footer>
+        <p>&copy; 2023 Filmit - Gregor Enengl and the Filmit-Team</p>
+        <div class="social-media-links">
+          <a href="https://www.tiktok.com/@mampferbtw?_t=8cMrSI3J1HX&_r=1" target="_blank" rel="nofollow noopener">
+            <img class="social-media-logo" src="img/Icons/tiktok-icon.png" alt="Tik Tok Icon">
+          </a>
+          <a href="https://www.letterboxd.com/mampferbtw" target="_blank" rel="nofollow noopener">
+            <img class="social-media-logo" src="img/Icons/letterboxd-icon.png" alt="Letterboxd Icon">
+          </a>
+          <a href="https://twitter.com/MampferB?t=hxVLbWfLEyQZ_svxHjLeow&s=08" target="_blank" rel="nofollow noopener">
+            <img class="social-media-logo" src="img/Icons/twitter-icon.png" alt="Twitter Icon">
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
