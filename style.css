@@ -193,12 +193,16 @@
 
   .contact-button{
     background-color: #111;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: .4em;
+    display: inline-block;
   }
 
   .imprint-button{
     background-color: #111;
-    border-radius: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: .4em;
   }
 
   .contact-button-link {
@@ -215,6 +219,10 @@
 
   .social-media-links {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4em;
   }
 
   .social-media-logo {
