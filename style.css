@@ -191,11 +191,19 @@
     background: linear-gradient(to right, #D39D38, #4DA0B0); */
   }
 
-  .contact-button {
+  .contact-button{
+
+  }
+
+  .imprint-button{
+    
+  }
+
+  .contact-button-link {
     padding: 10px;
   }
 
-  .imprint-button {
+  .imprint-button-link {
     padding: 10px;
   }
 
