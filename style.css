@@ -250,11 +250,11 @@
   /* #region trailer */
 
   .video-container {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: .4em;
+    gap: .6em;
   }
 
   iframe {
