@@ -192,18 +192,24 @@
   }
 
   .contact-button{
-
+    background-color: #111;
+    border-radius: 20px;
   }
 
   .imprint-button{
-    
+    background-color: #111;
+    border-radius: 20px;
   }
 
   .contact-button-link {
+    color: white;
+    text-decoration: underline white;
     padding: 10px;
   }
 
   .imprint-button-link {
+    color: white;
+    text-decoration: underline white;
     padding: 10px;
   }
 
