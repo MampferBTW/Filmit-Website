@@ -133,6 +133,20 @@
 
   /* #endregion */
 
+  /* #region index */
+
+  .read-more{
+    background-color: #111;
+    border-radius: 20px;
+  }
+
+  .read-more-link{
+    color: white;
+    text-decoration: underline white;
+  }
+
+  /* #endregion */
+
   /* #region main */
   main {
     max-width: 1200px;
