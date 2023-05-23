@@ -156,6 +156,8 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     /* min-height: 30vh;  */
   }
 
@@ -173,6 +175,14 @@
     background: #4DA0B0;  
     background: -webkit-linear-gradient(to right, #D39D38, #4DA0B/0);  
     background: linear-gradient(to right, #D39D38, #4DA0B0); */
+  }
+
+  .contact-button{
+    padding: 10px;
+  }
+
+  .imprint-button{
+    padding: 10px;
   }
 
   .social-media-links {
