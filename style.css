@@ -135,12 +135,12 @@
 
   /* #region index */
 
-  .read-more{
+  .read-more {
     background-color: #111;
     border-radius: 20px;
   }
 
-  .read-more-link{
+  .read-more-link {
     color: white;
     text-decoration: underline white;
   }
@@ -191,11 +191,11 @@
     background: linear-gradient(to right, #D39D38, #4DA0B0); */
   }
 
-  .contact-button{
+  .contact-button {
     padding: 10px;
   }
 
-  .imprint-button{
+  .imprint-button {
     padding: 10px;
   }
 
@@ -283,7 +283,7 @@
     border-radius: .8em;
   }
 
-  .blog-pic{
+  .blog-pic {
     width: 500px;
     border-radius: 15px;
   }
@@ -498,11 +498,11 @@
     gap: .8em;
   }
 
-  .news-article h3{
+  .news-article h3 {
     margin-top: 15px;
   }
 
-  .news-article p{
+  .news-article p {
     text-align: center;
     margin-bottom: 15px;
   }
