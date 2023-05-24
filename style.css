@@ -358,36 +358,51 @@
   
   /* #region form */
 
-  input {
+  textarea, input {
     text-align: center;
     border: 2px solid black;
-    background-color: #4DA0B0;
-    border-radius: 10px;
-    font-family: 'Instrument Sans', sans-serif;
-    font-family: 'Mukta', sans-serif; 
-  }
-
-  textarea {
-    text-align: center;
-    border: 2px solid black;
-    background-color: #4DA0B0;
+    background-color: #e6e6e6;
     border-radius: 10px;
     font-family: 'Instrument Sans', sans-serif;
     font-family: 'Mukta', sans-serif; 
   }
 
   ::placeholder {
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   button {
-    color: white;
+    color: rgb(0, 0, 0);
     border: 2px solid black;
-    background-color: #4DA0B0;
+    background-color: #dedede;
     border-radius: 10px;
     font-family: 'Instrument Sans', sans-serif;
     font-family: 'Mukta', sans-serif; 
   }
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: .2em;
+}
+
+input, textarea, .submit {
+  min-height: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: .4em;
+  color: black;
+}
+
+textarea {
+  height: 16rem;
+  resize: none;
+}
+
+.submit {
+  text-align: center;
+}
 
   /* #endregion */
 
