@@ -30,6 +30,10 @@
     margin-bottom: 40px;
   }
 
+  h4 {
+    margin: 1em;
+  }
+
   #upcoming-films {
     color: white;
   }
@@ -140,6 +144,10 @@
     border-radius: 20px;
   }
 
+  .read-more.lower {
+    margin-top: 1em;
+  }
+
   .read-more-link {
     color: white;
     text-decoration: underline white;
@@ -191,7 +199,7 @@
     background: linear-gradient(to right, #D39D38, #4DA0B0); */
   }
 
-  .contact-button{
+  .contact-button, .read-more{
     background-color: #111;
     border-radius: 10px;
     padding: .4em;
@@ -435,8 +443,10 @@
     padding: 8px 12px;
     position: absolute;
     /* bottom: 200px; */
-    top: 8px;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
+    font-weight: 600;
     text-align: center;
   }
 
@@ -447,6 +457,17 @@
     padding: 8px 12px;
     position: absolute;
     top: 0;
+  }
+
+  /*to darken the Background of the slides*/
+
+  .darken {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
   }
 
   /* The dots/bullets/indicators */
